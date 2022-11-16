@@ -1,0 +1,38 @@
+POST http://localhost:3003/user/signup
+Content-Type: application/json
+
+{
+    "username": "terceiroConta",
+    "password": "Joao1234!"
+}
+
+
+###
+POST http://localhost:3003/user/login
+Content-Type: application/json
+
+{
+    "username": "primeiraConta",
+    "password": "Joao1234!"
+}
+
+
+###
+GET http://localhost:3003/user/profile
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImZkMDdiMDZkLWQ5ZDUtNDE3NS04NDAzLWMwYTFlYzQ4ODI5YSIsImlhdCI6MTY2ODU0MzU3MywiZXhwIjoxNjY4NjI5OTczfQ.ygVloKf5fFNmFPT-bo4P7g0nVbAsY4qihVimC7nsKdI
+
+
+###
+PUT http://localhost:3003/user/pay
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImZkMDdiMDZkLWQ5ZDUtNDE3NS04NDAzLWMwYTFlYzQ4ODI5YSIsImlhdCI6MTY2ODU1MDkyMSwiZXhwIjoxNjY4NjM3MzIxfQ.GcLIItLTKtpnqzCuSbtaLgG9yC-9Gc48_huIm0XNVuA
+Content-Type: application/json
+
+{
+    "username": "primeiraConta",
+    "value": 2
+}
+
+
+###
+GET http://localhost:3003/user/transactions
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZiMTAzYzA3LTRiMDAtNDk1ZC05MjZjLWY0NzQ2ZTc4OTEwNyIsImlhdCI6MTY2ODU1MjYzMywiZXhwIjoxNjY4NjM5MDMzfQ.F47S3tiNbXD2qS-4ORLp7cNPxwjaCJVQQR90XTL2O74
