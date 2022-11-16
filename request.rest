@@ -2,7 +2,7 @@ POST http://localhost:3003/user/signup
 Content-Type: application/json
 
 {
-    "username": "terceiroConta",
+    "username": "quartaConta",
     "password": "Joao1234!"
 }
 
@@ -24,11 +24,11 @@ Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImZkMDdiMDZkLWQ5ZDUt
 
 ###
 PUT http://localhost:3003/user/pay
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImZkMDdiMDZkLWQ5ZDUtNDE3NS04NDAzLWMwYTFlYzQ4ODI5YSIsImlhdCI6MTY2ODU1MDkyMSwiZXhwIjoxNjY4NjM3MzIxfQ.GcLIItLTKtpnqzCuSbtaLgG9yC-9Gc48_huIm0XNVuA
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImZkMDdiMDZkLWQ5ZDUtNDE3NS04NDAzLWMwYTFlYzQ4ODI5YSIsImlhdCI6MTY2ODYzODM2NiwiZXhwIjoxNjY4NzI0NzY2fQ.doUX5OwiHvnmHmxghzAmPNF4nHEvP9bL3UBbgc2hi08
 Content-Type: application/json
 
 {
-    "username": "primeiraConta",
+    "username": "segundaConta",
     "value": 2
 }
 
