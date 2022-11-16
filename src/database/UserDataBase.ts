@@ -1,6 +1,6 @@
 import { Account } from "../models/Account";
 import { Transactions } from "../models/Transactions";
-import { User } from "../models/user";
+import { User } from "../models/User";
 import { BaseDatabase } from "./BaseDatabase";
 
 

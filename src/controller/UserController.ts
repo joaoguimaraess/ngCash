@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { UserBusiness } from "../business/UserBusiness";
-import { TransferInput, userInputDTO } from "../models/user";
+import { TransferInput, userInputDTO } from "../models/User";
 
 
 

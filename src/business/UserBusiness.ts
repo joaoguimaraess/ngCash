@@ -1,7 +1,7 @@
 import { UserDataBase } from "../database/UserDataBase"
 import { Account } from "../models/Account"
 import { Transactions } from "../models/Transactions"
-import { TransferInput, User, userInputDTO } from "../models/user"
+import { TransferInput, User, userInputDTO } from "../models/User"
 import { Authenticator, ITokenPayload } from "../services/Authenticator"
 import { HashManager } from "../services/HashManager"
 import { IdGenerator } from "../services/idGenerator"
